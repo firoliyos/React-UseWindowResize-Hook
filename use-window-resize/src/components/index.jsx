@@ -10,8 +10,8 @@ export default function useWindowResize() {
 
     function handleResize() {
         setWindowSize({
-            width: windowSize.innerWidth,
-            height: windowSize.innerHeight
+            width: window.innerWidth,
+            height: window.innerHeight
         })
     }
     useLayoutEffect(() => {
