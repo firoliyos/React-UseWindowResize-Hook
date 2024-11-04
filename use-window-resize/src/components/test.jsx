@@ -8,10 +8,10 @@ export default function UseWindowResizeTest() {
         <div>
           <h1>Use Window Resize Hook</h1>  
           <p>
-            width is : {width}
+            width is {width}
           </p>
           <p>
-            height is : {height}
+            height is {height}
           </p>
         </div>
     )
